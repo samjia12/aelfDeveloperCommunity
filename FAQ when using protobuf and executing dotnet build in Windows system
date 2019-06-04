@@ -30,13 +30,13 @@ google/protobuf/timestamp.proto: File not found.
 After download protobuf and decompress it, there are two folders in the protoc folder: ```bin``` and ```include```
 
 IF we only place bin\protoc.exe  to  ```C:\WINDOWS\```, it will not find the corresponding dependency of include, and it will report error "file not found error" . Copy and paste "include" folder will fix this error.
-```   ```
+
 
 Note：
 
-     1. Windows will search for C:\WINDOWS\protoc first, and then look for protoc path configured in the environment variable.
+     1. Windows will search for ```C:\WINDOWS\protoc``` first, and then look for protoc path configured in the environment variable.
 
-     2. Execute ps1 in window10 requires additional operations.
+     2. Execute ```ps1``` in window10 requires additional operations.
 
 AELF provides three simple solutions for everyone to use. The specific scripts and scenarios are as follows.
 
@@ -71,11 +71,11 @@ Run ```chain/scripts/install.ps1```
 
 ## 2. USe install_protoc.ps1 Script
 
-You can find ```install_protoc.ps1``` script file in ```AElf开发社区0群``` Group Folder，Download it to any directory (full English path) and execute it. (Execution method is the same as ```install.ps1```)
+You can find ```install_protoc.ps1``` script file in ```XXXXXXXXXXXXXXXXXXXX``` Group Folder，Download it to any directory (full English path) and execute it. (Execution method is the same as ```install.ps1```)
 
 Please make sure your ```C:\WINDOWS``` directory does not include any ```protoc.exe``` or ```include``` file，because windows will execute ```protoc``` in the ```C:\WINDOWS`` directory by default, it may cause your compilation to fail.
 
-Note: The chain/scripts/install_choco.ps1 script in the codebase is same as the script install_protoc.ps1 script in the group folder; choco is the package management tool for windows.
+Note: The ```chain/scripts/install_choco.ps1``` script in the codebase is same as the script ```install_protoc.ps1``` script in the group folder; choco is the package management tool for windows.
 
 ## 3. Install protoc & unzip Manually
 
@@ -83,9 +83,9 @@ Note: The chain/scripts/install_choco.ps1 script in the codebase is same as the 
  
 Download Link: https://github.com/protocolbuffers/protobuf/releases/tag/v3.7.0
 
-1. Download protoc-3.7.0-win64/32 according to the system to determine which version to download
+1. Download ```protoc-3.7.0-win64/32``` according to the system to determine which version to download
 
-2. Decompress  it to any directory (path needs to be all English)
+2. Decompress it to any directory (path needs to be all English)
 
 3. Set environment variables (decompress directory /bin)
 
@@ -113,7 +113,7 @@ If there is no error after compile is completed, it means the compilation is suc
 If it said ```xxx is not an internal command or an external command```
 , check if your environment variable is correct.
 
-If it said ```xxx is inaccessible by the process```, please close all dotnet programs in Task Manager and re-execute the above command.
+If it said ```xxx is inaccessible by the process```, please close all ```dotnet``` programs in Task Manager and re-execute the above command.
 
 
 ```sell
