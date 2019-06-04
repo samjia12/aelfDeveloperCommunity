@@ -1,4 +1,5 @@
-# Common Question when using protobuf and executing dotnet build in Windows system
+# FAQ when using protobuf and executing dotnet build in Windows system
+//"dotnet build" is one term
 
 Thie file：
 
@@ -6,7 +7,7 @@ Operating Environment
 
 ```bash
 
- os：windows10 Family Chinese version x64
+ os：windows10 Family-Chinese version x64
  node：v10.15.1
  npm: 6.4.1
  dotnet-sdk: 2.2.300
@@ -26,12 +27,12 @@ Hardware Environment
 ```bash
 google/protobuf/timestamp.proto: File not found.
 ```
-After download protobuf anddecompress it, there are two folders in the protoc folder: bin and include
+After download protobuf and decompress it, there are two folders in the protoc folder: ```bin``` and ```include```
 
-When we only place bin\protoc.exe to C:\WINDOWS\, it will not find the corresponding dependency of include, and the file not found error is naturally reported. Copy the include folder will fix this error.
+IF we only place bin\protoc.exe  to  ```C:\WINDOWS\```, it will not find the corresponding dependency of include, and it will report error "file not found error" . Copy and paste "include" folder will fix this error.
+```   ```
 
-
-注意：
+Note：
 
      1. Windows will search for C:\WINDOWS\protoc first, and then look for protoc path configured in the environment variable.
 
