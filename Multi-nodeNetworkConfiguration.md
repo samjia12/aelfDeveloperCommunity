@@ -1,4 +1,4 @@
-# Multi-node network configuration
+# Multi-node Network Configuration
 
 ## Environment:
 
