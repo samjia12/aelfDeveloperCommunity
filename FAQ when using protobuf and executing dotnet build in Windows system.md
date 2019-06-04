@@ -1,5 +1,4 @@
 # FAQ when using protobuf and executing dotnet build in Windows system
-//"dotnet build" is one term
 
 Thie file：
 
@@ -71,9 +70,9 @@ Run ```chain/scripts/install.ps1```
 
 ## 2. USe install_protoc.ps1 Script
 
-You can find ```install_protoc.ps1``` script file in ```XXXXXXXXXXXXXXXXXXXX``` Group Folder，Download it to any directory (full English path) and execute it. (Execution method is the same as ```install.ps1```)
+You can find ```install_protoc.ps1``` script file in ```XXXXXXXXwill edit this laterXXXXXXXXXXXX``` Group Folder，Download it to any directory (full English path) and execute it. (Execution method is the same as ```install.ps1```)
 
-Please make sure your ```C:\WINDOWS``` directory does not include any ```protoc.exe``` or ```include``` file，because windows will execute ```protoc``` in the ```C:\WINDOWS`` directory by default, it may cause your compilation to fail.
+Please make sure your ```C:\WINDOWS``` directory does not include any ```protoc.exe``` or ```include``` file，because windows will execute ```protoc``` in the ```C:\WINDOWS``` directory by default, it may cause your compilation to fail.
 
 Note: The ```chain/scripts/install_choco.ps1``` script in the codebase is same as the script ```install_protoc.ps1``` script in the group folder; choco is the package management tool for windows.
 
