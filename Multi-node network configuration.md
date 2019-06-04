@@ -1,14 +1,14 @@
-#Multi-node network configuration
+# Multi-node network configuration
 
 ## Environment:
 
 Need to install redis or SSDB
 
-After clone it, copy the key in the keys directory to ~/.local/share/aelf/keys/
+After clone it, copy the key in the keys directory to ```~/.local/share/aelf/keys/```
 
-(For Windows environment, please copy to C:\Users\your account\AppData\Local\aelf\keys)
+(For Windows environment, please copy to ```C:\Users\your account\AppData\Local\aelf\keys```)
 
-## Build and run
+## Build and Run
 
 ### Build
 
