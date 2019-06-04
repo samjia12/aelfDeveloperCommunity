@@ -29,14 +29,14 @@ google/protobuf/timestamp.proto: File not found.
 ```
 After download protobuf and decompress it, there are two folders in the protoc folder: ```bin``` and ```include```
 
-IF we only place bin\protoc.exe  to  ```C:\WINDOWS\```, it will not find the corresponding dependency of include, and it will report error "file not found error" . Copy and paste "include" folder will fix this error.
+IF we only place ```bin\protoc.exe```  to  ```C:\WINDOWS\```, it will not find the corresponding dependency of include, and it will report error "file not found error" . Copy and paste "include" folder will fix this error.
 
 
 Note：
 
-     1. Windows will search for ```C:\WINDOWS\protoc``` first, and then look for protoc path configured in the environment variable.
+1. Windows will search for ```C:\WINDOWS\protoc``` first, and then look for protoc path configured in the environment variable.
 
-     2. Execute ```ps1``` in window10 requires additional operations.
+2. Execute ```ps1``` in window10 requires additional operations.
 
 AELF provides three simple solutions for everyone to use. The specific scripts and scenarios are as follows.
 
@@ -105,8 +105,6 @@ Download Link: https://sourceforge.net/projects/gnuwin32/files/unzip/5.51-1/unzi
     cd chain/src/AElf.Boilerplate.Launcher/
     dotnet build
 ```
-```install_protoc.ps1```
-
 
 If there is no error after compile is completed, it means the compilation is successful (yellow warning does not affect the program)
 
