@@ -1,4 +1,4 @@
-#Writing Smart contract 
+# Writing Smart contract 
 
 aelf defines smart contracts through the GROTO protobuf service description file, which implements a smart contract environment that as good as a GRPC Server.
 
@@ -28,23 +28,23 @@ Simplified directory structure
 
 ### 1. In protobuf/hello_world.proto
 
-     The corresponding rpc method is defined by the service, and the data format is defined by the message. More information can be found in the protobuf documentation.
+    The corresponding rpc method is defined by the service, and the data format is defined by the message. More information can be found in the ```protobuf``` documentation.
 
 ### 2. In src/HelloWorldContract
 
-     The corresponding protobuf file is referenced in HelloWorldContract.csproj.
+     The corresponding protobuf file is referenced in ```HelloWorldContract.csproj.```
 
-     The specific contract logic is implemented in HelloWorldContract.cs.
+     The specific contract logic is implemented in ```HelloWorldContract.cs.```
 
 ### 3.src/HelloWorldContract/bin/Debug/netcoreapp2.2/HelloWorldContract.dll
 
-     This file is the file generated after dotnet build is executed.
+     This file is the file generated after ```dotnet build``` is executed.
 
-     In the boilerplate template, the dotnet run is automatically posted to the chain we started.
+     In the Boilerplate template, when dotnet runs, it is automatically posted to the chain we started.
 
-     If you need to publish your contract to other blockchain networks based on the AELF system, you only need to publish the corresponding dll.
+     If you need to publish your contract to other blockchain networks which based on AELF system, you only need to publish the corresponding dll.
 
-### 4. Code explanation
+### 4. Code Explanation
 
 ```protobuf
 // definition of protobuf
@@ -86,9 +86,9 @@ Namespace HelloWorldContract
 
 ## Adding Contract Method Tutorial
 
-We add an "Add method", enter two integer parameters a and b to output a + b
+We add an ```Add``` method, enter two integer parameters ```a``` and ```b``` to output ```a + b```
 
-### 1. Add the definition of the method and the definition of the data type in the hello_world.proto file.
+### 1. Methods for addiung definitions and definitions for different data type in ```hello_world.proto file``` file
 
 ```proto
 Syntax = "proto3";
@@ -122,7 +122,7 @@ Message AddOutput {
      Sint64 Value = 1;
 }
 ```
-### 2. Add logic in HelloWorldContract.cs
+### 2. Add new logic to ``` HelloWorldContract.cs```
 
 ```C#
 Using Google.Protobuf.WellKnownTypes;
@@ -145,11 +145,11 @@ Namespace HelloWorldContract
 
 ### 3. Recompile and start the chain
 
-Execute dotnet build under src/AElf.Boilerplate.Launcher to compile
+Execute dotnet build at ```src/AElf.Boilerplate.Launcher``` to complete compilation
 
-Dotnet run bin/Debug/netcoreapp2.2/AElf.Boilerplate.Launcher
+Dotnet run ```bin/Debug/netcoreapp2.2/AElf.Boilerplate.Launcher```
 
-The new contract will be automatically posted to the chain.
+The new contract will be automatically published to the chain.
 
 ### 4. Use the new contract through the JS file
 
@@ -198,10 +198,10 @@ Wait a second to see the result
 null { Value: '4' }
 ```
 
-Can't see the result
+If you can't see the result, check the following:
 
 1. Confirm that the compilation was successful.
 
 2. Confirm that the chain is running.
 
-3. Confirm that JS code entered incorrectly.
+3. Confirm that JS code entered correctly.
