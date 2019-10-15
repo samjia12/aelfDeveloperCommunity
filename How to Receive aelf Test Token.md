@@ -29,8 +29,8 @@ You can generate a test wallet in aelf blockchain system
 CLICK   ```Click to get a new wallet```  , you will get your own test wallet 
  ```Wallet Info```  tells your test wallet mnemonic, privatekey and address. Please make sure you store those info 
 Then, follow the step  ```a```  to get your test token
+![alt text](https://images-cdn.shimo.im/k2OE1b0mJrsgFHdz/image.png__thumbnail)
 
-图片2
 
 ## How Many Test Tokens Can You Get
 Datt???????????????????????????????????????????
