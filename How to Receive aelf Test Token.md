@@ -34,7 +34,7 @@ Then, follow the step  ```a```  to get your test token
 Datt???????????????????????????????????????????
       
 ## How To Use Test Token
-         Go to ```https://apply-token-test.aelf.io/```. Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Side chain explorers, and Side chain wallets
+Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Side chain explorers, and Side chain wallets
          
 图片
 
