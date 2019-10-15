@@ -19,12 +19,12 @@ Datt???????????????????????????????????????????
 
 2. Quickly receive the test token in two steps:
 
- a) If you already have a wallet:
+       a) If you already have a wallet:
         Just go ahead and fill in your address wallet directly, CLICK ```Continue to get token``` to receive test token
         
-图片: https://uploader.shimo.im/f/d9ldYVq6wMEkFzcD.png        
+    图片
 
- b) If you don't have a wallet:
+       b) If you don't have a wallet:
          You can generate a test wallet in aelf blockchain system
          CLICK ```Click to get a new wallet```, you will get your own test wallet 
          ```Wallet Info``` tells your test wallet mnemonic, privatekey and address. Please make sure you store those info 
