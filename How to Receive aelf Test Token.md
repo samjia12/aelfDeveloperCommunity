@@ -21,8 +21,8 @@ Datt???????????????????????????????????????????
 
 a) If you already have a wallet:
         Just go ahead and fill in your address wallet directly, CLICK ```Continue to get token``` to receive test token
-https://images-cdn.shimo.im/d9ldYVq6wMEkFzcD/image.png
-
+        
+![alt text](https://images-cdn.shimo.im/d9ldYVq6wMEkFzcD/image.png)
 
 b) If you don't have a wallet:
 You can generate a test wallet in aelf blockchain system
