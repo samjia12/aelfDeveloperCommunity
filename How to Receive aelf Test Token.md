@@ -21,20 +21,33 @@ Datt???????????????????????????????????????????
 
 a) If you already have a wallet:
         Just go ahead and fill in your address wallet directly, CLICK ```Continue to get token``` to receive test token
-        
-    图片
+ 图片1   
+
 
 b) If you don't have a wallet:
 You can generate a test wallet in aelf blockchain system
 CLICK   ```Click to get a new wallet```  , you will get your own test wallet 
  ```Wallet Info```  tells your test wallet mnemonic, privatekey and address. Please make sure you store those info 
 Then, follow the step  ```a```  to get your test token
-         
+
+图片2
+
 ## How Many Test Tokens Can You Get
 Datt???????????????????????????????????????????
       
 ## How To Use Test Token
 Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Side chain explorers, and Side chain wallets
          
-图片
+图片3
+
+aelf v0.8.0 beta ：
+https://github.com/AElfProject/AElf 
+aelf-boilerplate：
+https://github.com/AElfProject/aelf-boilerplate
+aelf Wallet ：
+https://github.com/AElfProject/aelf-web-wallet
+aelf Explorer： 
+https://github.com/AElfProject/aelf-block-explorer
+Documents：
+https://docs.aelf.io/
 
