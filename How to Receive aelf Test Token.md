@@ -42,12 +42,16 @@ Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```,
 
 aelf v0.8.0 beta ：
 https://github.com/AElfProject/AElf 
+
 aelf-boilerplate：
 https://github.com/AElfProject/aelf-boilerplate
+
 aelf Wallet ：
 https://github.com/AElfProject/aelf-web-wallet
+
 aelf Explorer： 
 https://github.com/AElfProject/aelf-block-explorer
+
 Documents：
 https://docs.aelf.io/
 
