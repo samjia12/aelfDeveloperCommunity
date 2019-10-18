@@ -1,9 +1,9 @@
 # How to Receive aelf Test Token
 
-This page is to teach you how to receive test token, so you can use to participate aelf Bug Bounty Program
+This page is to teach you how to receive test token, so you can use to participate in aelf Bug Bounty Program
 
 ## Abour aelf Enterprise 0.8.0 Beta
-aelf aelf Enterprise 0.8.0 Beta was officially release on Sep 20, 2019, it is a complete set of enterprise blockchain solutions that include a complete blockchain system, development kits, development documentation, and supporting infrastructure and services.
+aelf Enterprise 0.8.0 Beta was officially released on Sep 20, 2019. It is a complete set of enterprise blockchain solutions that include a complete blockchain system, development kits, development documentation, and supporting infrastructure and services.
 
 ```bash
 aelf Enterprise 0.8.0 Beta Officially Released
