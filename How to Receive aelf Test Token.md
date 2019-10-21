@@ -47,10 +47,23 @@ Apply Result：
 ![alt text](https://images-cdn.shimo.im/UWb1dRvJYt8a6r4v/image.png__thumbnail
 )
 
-## How To Use Test Token
-Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Side chain explorers, and Side chain wallets
+## Check Your Test Token on Your aelf Wallet
+You will receive your test tokens on aelf mainchain and both sidechains, check it out on the corresponding three wallet URL addresses:
+Https://wallet-test.aelf.io/
+Https://wallet-test-side01.aelf.io/
+Https://wallet-test-side02.aelf.io/
+
+Note:
+1. For this Bug Bounty Program, your aelf Wallet info (mnemonic and privateKey) can only be used on aelf mainchain H5 wallet (mobile version)
+
+2. Do not use aelf wallet in the invisible mode, the invisible mode cannot store your wallet information
+
+![alt text](https://images-cdn.shimo.im/FmZvXLNcrkgVyo1w/image.png__thumbnail)
+## Check Your Test Token on aelf Block Explorer
+Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Sidechain explorers, and Sidechain wallets
          
 ![alt text](https://uploader.shimo.im/f/XIsY4Q6hcT43CHh2.png!thumbnail)
+
 aelf v0.8.0 beta ：
 https://github.com/AElfProject/AElf 
 
@@ -65,4 +78,16 @@ https://github.com/AElfProject/aelf-block-explorer
 
 Documents：
 https://docs.aelf.io/
+
+## Instructions of Cross-connect Transaction:
+Cross-chain transactions on H5 wallet is not supported.
+
+If you want to experience cross-chain transactions, you can use SDK to realize cross-chain transaction.
+
+SDK codebase:
+https://github.com/AElfProject/aelf-sdk-cross-chain.js
+
+Cross-chain transactions require tokens from the originating chain and the target chain (for example, tolens being sent from mainchain to a sidechain will consumes TELF and STA/STB).
+
+
 
