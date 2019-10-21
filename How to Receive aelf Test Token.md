@@ -38,10 +38,14 @@ a) If you already have a wallet:
 b) If you don't have a wallet:
 You can generate a test wallet in aelf blockchain system
 CLICK   ```Click to get a new wallet```  , you will get your own 
- ```Wallet Info```  tells your test wallet mnemonic, privatekey and address. Please make sure you store those info.
+ ```Wallet Info```  which tells your test wallet mnemonic, privatekey and address. Please make sure you store those info.
 Then, follow the step  ```a```  to get your test token
 
-![alt text](https://images-cdn.shimo.im/k2OE1b0mJrsgFHdz/image.png__thumbnail)
+![alt text](https://images-cdn.shimo.im/A82yNEYBYqItiYPn/image.png__thumbnail)
+
+Apply Result：
+![alt text](https://images-cdn.shimo.im/UWb1dRvJYt8a6r4v/image.png__thumbnail
+)
 
 ## How To Use Test Token
 Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Side chain explorers, and Side chain wallets
