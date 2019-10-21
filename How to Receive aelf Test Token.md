@@ -1,4 +1,4 @@
-# How to Receive aelf Test Token
+# Test Token Tutorial
 
 This page is to teach you how to receive test token, so you can use to participate in aelf Bug Bounty Program
 
@@ -11,18 +11,18 @@ https://medium.com/aelfblockchain/aelf-enterprise-0-8-0-beta-officially-released
 ```
 ## Test Token Names and Their Purposes
 
-Mainchain:
-Name: TELF
-Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
+        Mainchain:
+        Name: TELF
+        Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
 
-Sidechain:
-Name: STA/STB
-Uses: Can be used for samechain / cross-chain transaction, can be used as a transaction fee and other scenarios.
+        Sidechain:
+        Name: STA/STB
+        Uses: Can be used for samechain / cross-chain transaction, can be used as a transaction fee and other scenarios.
 
 
-Note:
-STA and STB are tokens for two side chains, which can be used for transaction fee.
-When transferring funds, the default is to charge the token of the current chain of 0.1. When the contract being invoked implements the standard for acs1, the fee will be charged based on the amount of transaction data.
+        Note:
+        STA and STB are tokens for two side chains, which can be used for transaction fee.
+        When transferring funds, the default is to charge the token of the current chain of 0.1. When the contract being invoked implements the standard for acs1, the fee will be charged based on the amount of transaction data.
 
 
 ## When Can You Receive Test Token
