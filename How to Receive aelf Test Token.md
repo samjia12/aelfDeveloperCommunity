@@ -9,9 +9,27 @@ aelf Enterprise 0.8.0 Beta was officially released on Sep 20, 2019. It is a comp
 aelf Enterprise 0.8.0 Beta Officially Released
 https://medium.com/aelfblockchain/aelf-enterprise-0-8-0-beta-officially-released-38b41622893e
 ```
+## Test Token Names and Their Purposes
+
+Mainchain:
+Name: TELF
+Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
+
+Sidechain:
+Name: STA/STB
+Uses: Can be used for samechain / cross-chain transaction, can be used as a transaction fee and other scenarios.
+
+
+Note:
+STA and STB are tokens for two side chains, which can be used for transaction fee.
+When transferring funds, the default is to charge the token of the current chain of 0.1. When the contract being invoked implements the standard for acs1, the fee will be charged based on the amount of transaction data.
+
 
 ## When Can You Receive Test Token
-Datt???????????????????????????????????????????
+Oct 24th - Nov 5th
+
+## How Many Test Tokens Can You Get
+You can get 100 of each token for different chains. 
 
 ## How to Receive Test Token
 
@@ -32,9 +50,6 @@ Then, follow the step  ```a```  to get your test token
 
 ![alt text](https://images-cdn.shimo.im/k2OE1b0mJrsgFHdz/image.png__thumbnail)
 
-## How Many Test Tokens Can You Get
-Datt???????????????????????????????????????????
-      
 ## How To Use Test Token
 Go to  ```https://apply-token-test.aelf.io/``` . Go to ```Open Test Websites```, then, you will be able to test out aelf Mainchain explorer, Mainchain wallet, Side chain explorers, and Side chain wallets
          
