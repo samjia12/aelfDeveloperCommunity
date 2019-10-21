@@ -2,18 +2,13 @@
 
 This page is to teach you how to receive test token, so you can use to participate in aelf Bug Bounty Program
 
-## Abour aelf Enterprise 0.8.0 Beta
-aelf Enterprise 0.8.0 Beta was officially released on Sep 20, 2019. It is a complete set of enterprise blockchain solutions that include a complete blockchain system, development kits, development documentation, and supporting infrastructure and services.
-
-```bash
-aelf Enterprise 0.8.0 Beta Officially Released
-https://medium.com/aelfblockchain/aelf-enterprise-0-8-0-beta-officially-released-38b41622893e
-```
 ## Test Token Names and Their Purposes
 
-        Mainchain:
-        Name: TELF
-        Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
+Mainchain:
+
+Name: TELF
+
+Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
 
         Sidechain:
         Name: STA/STB
