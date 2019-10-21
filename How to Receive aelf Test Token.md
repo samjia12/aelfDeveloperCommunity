@@ -6,7 +6,7 @@ This page is to teach you how to receive test token, so you can use to participa
 
 Mainchain Test Token Name: TELF
 
-Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
+Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios. 
 
 Sidechains Test Token Names: STA/STB
 
@@ -15,12 +15,10 @@ Uses: Can be used for samechain / cross-chain transaction, can be used as a tran
 
 Note:
 
-STA and STB are tokens for two side chains, which can be used for transaction fee.
-
-When transferring funds, the default is to charge the token of the current chain of 0.1. When the contract being invoked implements the standard for acs1, the fee will be charged based on the amount of transaction data.
+STA and STB are tokens for two side chains, which can be used for transaction fee. When making transactions, 0.1 of the token will be charged for gas fee. When the contract implements by acs1 standard, the fee will be charged based on the amount of tokens.
 
 
-## When Can You Receive Test Token
+## When Can You Receive the Test Token
 Oct 24th - Nov 5th
 
 ## How Many Test Tokens Can You Get
@@ -30,7 +28,7 @@ You can get 100 of each token for different chains.
 
 1. Address: https://apply-token-test.aelf.io/
 
-2. Quickly receive the test token in two steps:
+2. You must have a aelf Wallet. Quickly receive the test token in two steps:
 
 a) If you already have a wallet:
         Just go ahead and fill in your address wallet directly, CLICK ```Continue to get token``` to receive test token
