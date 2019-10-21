@@ -1,4 +1,4 @@
-# Test Token Tutorial
+# Test Token Tutorial (aelf Bug Bounty)
 
 This page is to teach you how to receive test token, so you can use to participate in aelf Bug Bounty Program
 
