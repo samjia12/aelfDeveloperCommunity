@@ -4,15 +4,11 @@ This page is to teach you how to receive test token, so you can use to participa
 
 ## Test Token Names and Their Purposes
 
-Mainchain:
-
-Name: TELF
+Mainchain Test Token Name: TELF
 
 Uses: Can be used for samechain / cross-chain transaction, purchase resources, vote, as a transaction fee and other scenarios.
 
-Sidechain:
-
-Name: STA/STB
+Sidechains Test Token Names: STA/STB
 
 Uses: Can be used for samechain / cross-chain transaction, can be used as a transaction fee and other scenarios.
 
